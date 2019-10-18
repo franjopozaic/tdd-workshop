@@ -1,0 +1,12 @@
+<p id="page">{{page}}</p>
+<button 
+    (click)="previousPage()" 
+    id="previous-btn" 
+    [disabled]="page==1">
+    PREVIOUS
+</button>
+<button 
+    (click)="nextPage()" 
+    id="next-btn">
+    NEXT
+</button>
